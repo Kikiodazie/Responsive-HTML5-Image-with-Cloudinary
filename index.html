@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive HTML5 Image with Cloudinary</title>
+</head>
+<body>
+
+
+<img
+    sizes="(min-width: 960px) 540px, 100vw"
+    srcset="
+    https://res.cloudinary.com/dodazie/image/upload/f_auto,w_256/family.jpg 256w, 
+    https://res.cloudinary.com/dodazie/image/upload/f_auto,w_512/family.jpg 512w, 
+    https://res.cloudinary.com/dodazie/image/upload/f_auto,w_768/family.jpg 768w, 
+    https://res.cloudinary.com/dodazie/image/upload/f_auto,w_1024/family.jpg 1024w, 
+    https://res.cloudinary.com/dodazie/image/upload/f_auto,w_1280/family.jpg 1280w"
+    src="https://res.cloudinary.com/dodazie/image/upload/f_auto,w_512/family.jpg"
+    alt= "Family"
+/>
+    
+</body>
+</html>
